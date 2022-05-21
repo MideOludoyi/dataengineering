@@ -1,0 +1,25 @@
+
+
+============================== 2022-05-21 18:11:14.344749 | 9d677cc0-517e-4bbf-9cbf-9f596dfe420f ==============================
+18:11:14.344749 [info ] [MainThread]: Running with dbt=1.1.0
+18:11:14.346198 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': 'C:\\Users\\Mayowa Oludoyi\\.dbt', 'send_anonymous_usage_stats': True, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'project_name': 'demo', 'skip_profile_setup': False, 'which': 'init', 'indirect_selection': 'eager'}
+18:11:14.346701 [debug] [MainThread]: Tracking: tracking
+18:11:14.373017 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D272D6C2E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D272D6C130>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D272D42580>]}
+18:11:14.376446 [debug] [MainThread]: Starter project path: C:\Users\Mayowa Oludoyi\anaconda3\envs\de_task\lib\site-packages\dbt\include\starter_project
+18:11:19.643173 [info ] [MainThread]: 
+Your new dbt project "demo" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+18:11:19.643578 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D26CC977C0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D272D6C190>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D272D42250>]}
